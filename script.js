@@ -4,7 +4,7 @@ function compute(ev) {
     if (principal.value <= 0) {
         alert("Enter a positive number");
         // focus input element
-        document.getElementById("principal").focus();
+        principal.focus();
         return;
     }
     const interest = +principal.value * +years.value * +rate.value / 100;
