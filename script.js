@@ -25,4 +25,5 @@ function updateRate() {
 }
 
 document.getElementById('sic').addEventListener("submit", compute);
+document.getElementById('sic').addEventListener("change", compute);
 document.getElementById('rate').addEventListener("change", updateRate);
